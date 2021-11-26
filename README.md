@@ -1,5 +1,5 @@
 # FruitAPIaccess
-This is a jupyter notebook that pulls data from a fruit RestAPI in JSON format to a pandas DataFrame format.
+This is a jupyter notebook that pulls data from a fruit RestAPI in JSON format and preprocesses it to a pandas DataFrame format.
 
 ### Thanks to https://fruityvice.com for the API
 
@@ -9,7 +9,7 @@ In order to turn those keys into columns with their respective data, we turn the
 ![image](https://i.gyazo.com/616033c0f314cb1ae382237125b86347.png)
 
 
-Clearly, we can see that Durian has more carbohydrates than Banana's. It is quite an interesting database of fruit that updates constantly and has fruits that I didn't even know about.
+Clearly, we can see that Durian has more carbohydrates than Bananas. It is quite an interesting database of fruit that updates constantly and has fruits that most don't even know about.
 ![image](https://user-images.githubusercontent.com/89711840/143513569-92edcd43-32a4-409f-9bcf-dcb5951259db.png)
 
 Below we can see more insights on the in depth genus and family of the fruits that one could pull from the API.
