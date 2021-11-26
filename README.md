@@ -3,7 +3,7 @@ This is a jupyter notebook that pulls data from a fruit RestAPI in JSON format t
 
 ### Thanks to https://fruityvice.com for the API
 
-The nutritions column is in a dictionary format for each row,\ 
+The nutritions column is in a dictionary format for each row, <br />
 ![image](https://i.gyazo.com/152763195cfbdda11ea0db415f8116cc.png)
 In order to turn those keys into columns with their respective data, we turn the entire column to a list, and turn that list into a data frame. We then join both dataframes by index and drop the original nutritions column to have our data fully preprocessed from the API ready for modeling or visualization.
 ![image](https://i.gyazo.com/616033c0f314cb1ae382237125b86347.png)
